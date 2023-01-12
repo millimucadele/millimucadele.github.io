@@ -1,0 +1,419 @@
+<div id="loading">
+  <img src="loader.svg" alt="Yükleniyor..." />
+</div>
+<style>
+  #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1e1f;
+    z-index: 999
+  }
+</style>
+
+<script>
+  window.addEventListener('load', fg_load)
+
+  function fg_load() {
+    document.getElementById('loading').style.display = 'none'
+  }
+</script>
+
+
+
+
+<html>
+
+<head>
+
+</head>
+
+<body class="null vsc-initialized">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ededed">
+  <title>TÜBİTAK 2204-A</title>
+  <link rel="icon" href="https://www.sandlandantalya.com/wp-content/uploads/2022/06/TUBITAK_logo.svg-1-271x300.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="mainNav">
+    <a class="navbar-brand" style="margin-left: 30px;" href="/"><img
+        src="https://www.sandlandantalya.com/wp-content/uploads/2022/06/TUBITAK_logo.svg-1-271x300.png" style=""
+        width="50">
+    </a>
+    <a class="navbar-brand">TÜBİTAK 2204-A</a>
+
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <div class="container" style="min-height: 100vh;">
+    <h1 class="text-center" style="margin-top: 100px;">
+      Milli Mücadele Kahramanları
+    </h1>
+    <h5 class="text-center">
+      <center><img style="width:100"
+          src="https://www.freepnglogos.com/uploads/turk-bayragi-png/turk-bayragi-turkey-flags-turkish-png-images-icons-and-png-2.png">
+      </center>
+    </h5>
+    <hr>
+
+
+
+    <div class="container">
+      <input id="search" type="text" class="form-control" placeholder="Ara" style="background: none; color: white;">
+    </div><br>
+
+    <center>
+      <div style="margin-left: 0.1rem; margin-right: 0.1rem;" class="row row-cols-1 row-cols-md-4">
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100;"
+                  src="http://cdn.vgm.gov.tr/genelicerik/genelicerik_201_250519/mustafa-kemal-ataturk.jpg"></p>
+              <p class="card-text avatar">Mustafa Kemal Atatürk</p>
+              <p class="card-text">1881 - 193∞</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Kara_Fatma.jpg"></p>
+              <p class="card-text avatar">Fatma Seher Erden <br> (Kara Fatma)</p>
+              <p class="card-text">1888 - 1955</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/b6/G%C3%B6rdesli_Makbule.jpg"></p>
+              <p class="card-text avatar">Gördesli Makbule</p>
+              <p class="card-text">1902 - 1922</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Kiazim_Karabekir_Pasha_with_Djemaliye.jpg">
+              </p>
+              <p class="card-text avatar">Kâzım Karabekir</p>
+              <p class="card-text">1882 - 1948</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://kastamonu.ktb.gov.tr/Resim/98662,halime-cavus.png?0"></p>
+              <p class="card-text avatar">Halime Çavuş</p>
+              <p class="card-text">1898 - 1976</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://37haber.com/wp-content/uploads/2022/12/5-12.jpg"></p>
+              <p class="card-text avatar">Hafız Selman İzbeli</p>
+              <p class="card-text">? - 1951</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Fahrettin_Altay.png"></p>
+              <p class="card-text avatar">Fahrettin Altay</p>
+              <p class="card-text">1880 - 1974</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://ataturkansiklopedisi.gov.tr/images/thumb/b/b8/Yakup_%C5%9Eevki_%28Suba%C5%9F%C4%B1%29_Pa%C5%9Fa.bmp/200px-Yakup_%C5%9Eevki_%28Suba%C5%9F%C4%B1%29_Pa%C5%9Fa.bmp.png">
+              </p>
+              <p class="card-text avatar">Yakup Şevki Subaşı</p>
+              <p class="card-text">1876 - 1939</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://cdn.yenicaggazetesi.com.tr/news/2022/08/300820221501262590092_1.jpg"></p>
+              <p class="card-text avatar">Reşat Çiğiltepe</p>
+              <p class="card-text">1879 - 1922</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Nazif_Kayac%C4%B1k.jpg"></p>
+              <p class="card-text avatar">Nazif Kayacık</p>
+              <p class="card-text">1872 - 1951</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://ataturkansiklopedisi.gov.tr/bilgi/Dosya:M%C3%BCrsel_Bak%C3%BC.jpg"></p>
+              <p class="card-text avatar">Mürsel Bakü</p>
+              <p class="card-text">1881 - 1945</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/16/Muhittin_Pasha.jpg"></p>
+              <p class="card-text avatar">Muhittin Akyüz</p>
+              <p class="card-text">1870 - 1940</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Sahin_Bey.png"></p>
+              <p class="card-text avatar">Şahin Bey</p>
+              <p class="card-text">1877 - 1920</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://www.ksu.edu.tr/depo/icerik_resim/s%C3%BCt%C3%A7%C3%BC%20imam.jpg"></p>
+              <p class="card-text avatar">Sütçü İmam</p>
+              <p class="card-text">1871 - 1922</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/94/Hat%C4%B1_%C3%87%C4%B1rpan.jpg"></p>
+              <p class="card-text avatar">Hatı Çırpan</p>
+              <p class="card-text">1890 - 1956</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/85/Mustafa_Fevzi_%C3%87akmak.jpg"></p>
+              <p class="card-text avatar">Fevzi Çakmak</p>
+              <p class="card-text">1876 - 1950</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://i4.hurimg.com/i/hurriyet/75/1200x675/6180485e4e3fe0147046da0c.jpg"></p>
+              <p class="card-text avatar">Nezahat Onbaşı</p>
+              <p class="card-text">1909 - 1994</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Yoruk_Ali_Efe.jpg/220px-Yoruk_Ali_Efe.jpg">
+              </p>
+              <p class="card-text avatar">Yörük Ali Efe</p>
+              <p class="card-text">1895 - 1951</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-1">
+          <div class="card bg-transparent mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <center>
+              </center>
+            </div>
+            <div class="card-body">
+              <p class="card-text avatar"><img style="border-radius: 100%; width:100; height:100;"
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/be/Osman_Nevres.jpg"></p>
+              <p class="card-text avatar">Hasan Tahsin</p>
+              <p class="card-text">1888 - 1919</p>
+              <a class="button1 nav-link" style="width: 100%; filter: invert(1);" href=""><b>Detaya Git</b></a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </center>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="footer">
+    <h6>
+      Saygı, Minnet ve Rahmetle Anıyoruz
+    </h6>
+  </div>
+</body>
+
+</html>
